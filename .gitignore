@@ -1,0 +1,19 @@
+# Build stuff
+*.cmake
+CMakeCache.txt
+CMakeFiles
+lib/*
+!/lib/.gitkeep
+bin/arpdummy*
+Makefile
+install_manifest.txt
+compile_commands.json
+build
+
+# Some language servers
+.ccls-cache
+.clangd
+.cache
+
+# VSCode
+*.code-workspace
