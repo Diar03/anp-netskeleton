@@ -1,7 +1,5 @@
-# Advanced Network Programming (ANP) Skeleton 
-
-ANP skeleton is the basic skeleton code used in the ANP course for developing your 
-own networking stack. 
+# Advanced Network Programming (ANP) 
+This is the final code from implement my own networking stack on top of the skeleton provided by the ANP team.
 
 ## Code 
 Corresponding to the figure 3 in the accompanying assignment, here is a brief 
@@ -225,14 +223,7 @@ sudo [path_to_anp]/bin/sh-debug-anp.sh [path]/build/anp_client -a IP -p port
 In case you have some non-standard installation path, please 
 update the path `/usr/local/lib/libanpnetstack.so` in the `sh-hack-anp.sh` script.
 
-## Authors 
-Animesh Trivedi, Lin Wang and the ANP teaching team 
+## Authors
+Skeleton provided by: Animesh Trivedi, Lin Wang and the ANP teaching team 
+ICMP and TCP implementation: Diar Kamberi
 VU Amsterdam 
-
-## todo 2022 
-  * remove sub abstraction - pass around plain void *ptr, length - and do checks on them with an assumption 
-  * a bit of documentation on return values - ip_output returns the number of bytes tx'ed 
-  * TCP checksum mess - give example 
-  * timer issue (? - give a working background thread which is constantly ticking - and callback registration)
-  * enable ASN build to help with common segfaults 
-  * 
